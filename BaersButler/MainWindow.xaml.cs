@@ -373,6 +373,11 @@ namespace BaersButler
 
         }
 
+        private void MsgReportText_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            MsgReportText.ScrollToEnd();
+        }
+
 
 
         // Setup timers for control of how often to check files for updates
